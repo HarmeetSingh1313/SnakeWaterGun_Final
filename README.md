@@ -60,48 +60,56 @@ python main.py
 
 ```
 
-Round 1
-
-Enter your choice: s
-
-You chose Snake 🐍
-
-Computer chose Water 💦
-
-🏆 You Win!
-
-
-
-Round 2
-
-Enter your choice: g
-
-You chose Gun 🔫
-
-Computer chose Gun 🔫
+--- Round 1 ---
+ s->Snake 🐍 
+ w->Water 💦 
+ g->Gun 🔫 
+ Enter your choice: s
+ You chose Snake 🐍 
+ Computer chose Snake 🐍 
 
 🤝 It's a Draw!
+Score:
+You -> 0        Computer -> 0
 
 
+--- Round 2 ---
+ s->Snake 🐍 
+ w->Water 💦 
+ g->Gun 🔫 
+ Enter your choice: w
+ You chose Water 💦 
+ Computer chose Snake 🐍 
 
-Round 3
-
-Enter your choice: w
-
-You chose Water 💦
-
-Computer chose Snake 🐍
-
-💻 Computer Wins!
+🤖 Computer Wins!
+Score:
+You -> 0        Computer -> 1
 
 
+--- Round 3 ---
+ s->Snake 🐍 
+ w->Water 💦
+ g->Gun 🔫
+ Enter your choice: 3
+❌ Invalid input!
+ s->Snake 🐍
+ w->Water 💦
+ g->Gun 🔫
+ Enter your choice: g
+ You chose Gun 🔫
+ Computer chose Water 💦
 
-Final Score:
+🤖 Computer Wins!
+Score:
+You -> 0        Computer -> 2
 
-You -> 1 Computer -> 1
 
-Result: Draw!
+--- FINAL RESULT ---
+You -> 0        Computer -> 2
+🤖 Computer Wins the Game!
 
+Do you want to play again? (y/n): n
+👋 Thanks for playing! Goodbye!
 ```
 
 
